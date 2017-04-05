@@ -15,8 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="week4\bstfind2.cpp">
-      <Filter>Resource Files</Filter>
+    <ClCompile Include="week5\editor.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
