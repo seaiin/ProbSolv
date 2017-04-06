@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="week5\productaccount.cpp">
+    <ClCompile Include="week5\likemax1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
