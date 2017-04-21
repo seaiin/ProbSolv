@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="week6\catmario.cpp">
+    <ClCompile Include="week6\bagsize.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
