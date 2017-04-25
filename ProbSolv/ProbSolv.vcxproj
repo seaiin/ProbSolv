@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="week7\conncount.cpp" />
+    <ClCompile Include="week7\bipartite.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{B43FC8CB-B914-4169-9A74-F7F9CC022249}</ProjectGuid>
