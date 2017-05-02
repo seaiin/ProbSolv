@@ -11,6 +11,7 @@ void printSeq(int n) {
 	if (maxPoint[n] != -1) {
 		printSeq(maxPoint[n]);
 	}
+	cout << seq[n] << " ";
 }
 
 int main() {
@@ -23,13 +24,18 @@ int main() {
 	}
 
 	for (int i = 0; i < n; i++) {
+		
 		maxLenght = 0;
+		
 		for (int j = 0; j < i; j++) {
+			
 			if (seq[i] > seq[j] && lenght[j] > maxLenght) {
 				maxLenght = lenght[j];
 				maxPoint[i] = j;
 			}
+
 			lenght[i] = maxLenght + 1;
+			
 			if (lenght[i] >= longest) {
 				longest = lenght[i];
 				point = i;
@@ -39,8 +45,7 @@ int main() {
 
 	cout << longest << endl;
 
-	for (int i = 0; i < n; i++) {
-		cout << i << " " << maxPoint[i] << endl;
-	}
+	printSeq(point);
 
+	cout << endl;
 }
