@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="week9\mst1.cpp">
+    <ClCompile Include="week9\shortestpath.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
