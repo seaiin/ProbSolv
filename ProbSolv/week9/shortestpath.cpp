@@ -17,7 +17,7 @@ void addEdge(int a, int b, int w) {
 
 void shortestPath(int src) {
 	int a, b, weight;
-	vector<int> dist(n, 1001);
+	vector<int> dist(n, 100000);
 	pq.push(make_pair(0, src));
 	dist[src] = 0;
 	while (!pq.empty()) {
