@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="midterm_2\mid592_water.cpp">
+    <ClCompile Include="midterm2\mid592_maze.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
