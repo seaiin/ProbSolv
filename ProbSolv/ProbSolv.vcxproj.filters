@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="midterm2\mid592_maze.cpp">
+    <ClCompile Include="week7\box.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
