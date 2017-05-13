@@ -3,37 +3,50 @@
 
 using namespace std;
 
-int n, q, a, b;
+int n, q;
 bool res;
 char map[MAX_N][MAX_N];
+bool visited[MAX_N][MAX_N];
 
-void findWay(int r, int c, int key, char dir) {
-	printf("%d %d\n", r, c);
-	if (r == a - 1 && c == b - 1) {
-		res = true;
+void findWay(int r, int c, int a, int b, int key) {
+
+	if (r < 0 || c < 0 || r >= n || c >= n) {
+		return;
 	}
+	
+	if (visited[r][c]) {
+		return;
+	}
+
+	if (map[r][c] == '#') {
+		return;
+	}
+	
+	visited[r][c] = true;
+
 	if (map[r][c] == 'O') {
-			key = 0;
+		if (key == 0) {
+			return;
+		}
+		key = 0;
 	}
-	if (map[r][c] != '\0' || map[r][c] != '#' ||
-		(map[r][c] == 'O' && key == 0)) {
-		if (map[r][c] == '.') {
-			if (c > 0 && dir != 'r') {
-				dir = 'l';
-				findWay(r, c - 1, key, dir);
-			}
-			if (c < n && dir != 'l') {
-				dir = 'r';
-				findWay(r, c + 1, key, dir);
-			}
-			if (r > 0 && dir != 'd') {
-				dir = 'u';
-				findWay(r - 1, c, key, dir);
-			}
-			if (r < n && dir != 'u') {
-				dir = 'd';
-				findWay(r + 1, c, key, dir);
-			}
+
+	if (r == a && c == b) {
+		res = true;
+		return;
+	}
+
+	findWay(r - 1, c, a, b, key);
+	findWay(r + 1, c, a, b, key);
+	findWay(r, c - 1, a, b, key);
+	findWay(r, c + 1, a, b, key);
+
+}
+
+void unknow() {
+	for (int i = 0; i < n; i++) {
+		for (int j = 0; j < n; j++) {
+			visited[i][j] = false;
 		}
 	}
 }
@@ -52,12 +65,13 @@ int main() {
 	for (int i = 0; i < q; i++) {
 		cin >> r >> c >> a >> b;
 		res = false;
-		findWay(r - 1, c - 1, 1, ' ');
+		unknow();
+		findWay(r - 1, c - 1, a - 1, b - 1, 1);
 		if (res) {
-			printf("yes\n");
+			cout << "yes" << endl;
 		}
 		else {
-			printf("no\n");
+			cout << "no" << endl;
 		}
 	}
 }
