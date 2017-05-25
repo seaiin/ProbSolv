@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="final\fin59_hos2.cpp">
+    <ClCompile Include="final\ski.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
