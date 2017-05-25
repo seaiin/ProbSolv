@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="week8\qualitymap.cpp">
+    <ClCompile Include="final\fin59_zoo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

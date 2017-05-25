@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="week8\qualitymap.cpp" />
+    <ClCompile Include="final\fin59_zoo.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{B43FC8CB-B914-4169-9A74-F7F9CC022249}</ProjectGuid>
