@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="final\ski.cpp">
+    <ClCompile Include="UVa\uva100_3n1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
