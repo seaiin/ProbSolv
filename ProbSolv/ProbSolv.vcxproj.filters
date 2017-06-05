@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="UVa\uva10050_hartals.cpp">
+    <ClCompile Include="UVa\uva12602_nicelicenseplates.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
