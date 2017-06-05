@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="UVa\uva299_trainswapping.cpp">
+    <ClCompile Include="UVa\uva686_goldbach3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

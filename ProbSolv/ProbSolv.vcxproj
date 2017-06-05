@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="UVa\uva299_trainswapping.cpp" />
+    <ClCompile Include="UVa\uva686_goldbach3.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{B43FC8CB-B914-4169-9A74-F7F9CC022249}</ProjectGuid>
