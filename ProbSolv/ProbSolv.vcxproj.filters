@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="UVa\uva11849_cd.cpp">
+    <ClCompile Include="UVa\uva484_drd.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
